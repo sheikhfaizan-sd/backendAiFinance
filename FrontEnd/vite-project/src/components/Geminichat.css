@@ -1,0 +1,55 @@
+.ai-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ai-response {
+    margin-top: 20px;
+    background: linear-gradient(to right, #f0f4ff, #e6f0ff);
+    /* Soft blue gradient */
+    padding: 20px 25px;
+    border-left: 5px solid #007acc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    /* Light shadow */
+    white-space: pre-wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222;
+    /* Darker text for better readability */
+    transition: all 0.3s ease;
+}
+
+.ai-response h4 {
+    margin-top: 0;
+    color: #005ea6;
+    font-size: 18px;
+    font-weight: 600;
+}
+.ai-response strong,
+.ai-response b {
+    font-weight: bold;
+    color: #1a1a1a;
+}
