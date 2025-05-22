@@ -33,26 +33,24 @@ A modern and interactive financial dashboard built with **React**, fetching real
 
 ### 🏠 Dashboard Overview
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./FrontEnd/vite-project/screenshots/dashboard.png)
 
 ### 🔍 Search Bar
 
-![Search Bar](./screenshots/searchbar.png)
+![Search Bar](./FrontEnd/vite-project/screenshots/searchbar.png)
 
 ### 📊 Financials Table
 
-![Financials](./screenshots/result1.png)
-![AI Input](./screenshots/result2.png)
+![Financials](./FrontEnd/vite-project/screenshots/result1.png)
+![AI Input](./FrontEnd/vite-project/screenshots/result2.png)
 
 ### 🤖 AI Input
 
-![AI Input](./screenshots/chatbot.png)
+![AI Input](./FrontEnd/vite-project/screenshots/chatbot.png)
 
 ### 🧠 AI Result
 
-![AI Result](./screenshots/chatbotResult1.png)
-![AI Result](./screenshots/chatbotResult2.png)
+![AI Result](./FrontEnd/vite-project/screenshots/chatbotResult1.png)
+![AI Result](./FrontEnd/vite-project/screenshots/chattbotResult2.png)
 
 ---
-
-## 📦 Folder Structure
