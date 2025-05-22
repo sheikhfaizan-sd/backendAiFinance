@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div style={{ textAlign: "center", padding: "2rem" }}>
-      <h1>📊 AI Stock Research Assistant</h1>
+      <h1>📊 AI Stock Analyst</h1>
 
       {/* Ticker Search Box  onSelectTicker is prop that we snd to ticker search*/}
       <TickerSearch onSelectTicker={setSelectedTicker} />

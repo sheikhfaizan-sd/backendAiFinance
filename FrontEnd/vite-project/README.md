@@ -1,12 +1,120 @@
-# React + Vite
+Here's your **complete `README.md`** in a single terminal-friendly format — no external file splitting, no download needed. Just copy and paste directly into your terminal or a markdown file:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+````markdown
+# 📊 Financial Dashboard with AI Assistant
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern and interactive financial dashboard built with **React**, fetching real-time stock financials (Income Statement, Balance Sheet, Cash Flow) using the [Financial Modeling Prep API](https://financialmodelingprep.com/). Also features a smart 🤖 AI assistant to interpret company data and help users understand financials in plain English.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Features
+
+- 🔍 Search any stock by ticker symbol (e.g., `AAPL`, `TSLA`, `GOOGL`)
+- 📈 Displays 5-year history of:
+  - Revenue, Net Income (Income Statement)
+  - Total Assets, Liabilities (Balance Sheet)
+  - Operating, Investing, Financing Cash Flows (Cash Flow Statement)
+- 🧠 AI Assistant:
+  - Ask: “Can I perform DCF?”, “Is the company profitable?”, etc.
+  - Returns insights based on financials
+- 🔄 Debounced search input to reduce API load
+- ⚙️ Error handling and loading states
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- Gemini API
+- Financial Modeling Prep API
+- useState, useEffect, useRef
+- TailwindCSS or custom CSS
+
+---
+
+## 🖼️ Screenshots
+
+### 🏠 Dashboard Overview
+
+![Dashboard](./screenshots/dashboard.png)
+
+### 🔍 Search Bar
+
+![Search Bar](./screenshots/searchbar.png)
+
+### 📊 Financials Table
+
+![Financials](./screenshots/result1.png)
+![AI Input](./screenshots/result2.png)
+
+### 🤖 AI Input
+
+![AI Input](./screenshots/chatbot.png)
+
+### 🧠 AI Result
+
+![AI Result](./screenshots/chatbotResult1.png)
+![AI Result](./screenshots/chattbotResult2.png)
+
+## 📦 Folder Structure
+
+```
+/src
+├── components/
+│   ├── TickerSearch.jsx
+│   ├── FinanceSearch.jsx
+│   └── GeminiChat.jsx
+├── Utils/
+│   └── GeminiPrompt.js
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🧪 Sample AI Prompts
+
+- "Is revenue growing?"
+- "What’s the cash position?"
+- "Compare liabilities vs assets."
+
+---
+
+## 🧹 Debounce Setup
+
+```js
+
+
+Used in `SearchBar.jsx` with `useRef`.
+
+---
+
+## 💡 Future Features
+
+- Stock charting (Price history)
+- DCF Calculator integration
+- Export to Excel/PDF
+- Compare multiple companies
+
+---
+
+## 🤝 Contributing
+
+1. Fork the project
+2. Create a new branch (`feat/your-feature`)
+3. Commit changes
+4. Push and open a PR
+
+---
+
+## ⚖️ License
+
+MIT © 2025 Your Name
+
+---
+
+
+```
+````

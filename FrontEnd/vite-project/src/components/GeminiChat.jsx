@@ -107,7 +107,7 @@ const GeminiChat = ({ ticker, incomeData, balanceData, cashFlowData }) => {
   return (
     <div className="ai-section">
       {/* Heading with dynamic ticker name */}
-      <h3>Ask Ai Equity Researcher about : {ticker}</h3>
+      <h3>Ask Ai stock analyst about : {ticker}</h3>
 
       {/* Textarea for typing user's question */}
       <textarea
